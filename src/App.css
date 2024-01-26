@@ -95,8 +95,11 @@ body{
   .todo-list{
     display: flex;
     flex-direction: column;
+    
   }
-  
+  .todo-list-content{
+    margin-bottom: 20vh;
+  }
   .todo-list-item{
     display: flex;
     justify-content: space-between;

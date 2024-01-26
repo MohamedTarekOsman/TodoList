@@ -4,7 +4,7 @@ import { BsCheckLg } from 'react-icons/bs'
 //render todo for todo page and completed page
 const TodoListComponent = ({ isCompletedScreen, allTodos, completedTodos, handleToDoDelete, handleComplete, handleCompletedTodoDelete }) => {
   return (
-    <div className="todo-list">
+    <div className="todo-list todo-list-content">
           {isCompletedScreen === false &&
             allTodos.map ((item, index) => (
               <div className="todo-list-item" key={index}>

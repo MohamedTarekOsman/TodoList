@@ -14,7 +14,6 @@ const TodoListPage = () => {
     const [newTodoDeadline, setNewTodoDeadline] = useState ('');
     const [completedTodos, setCompletedTodos] = useState ([]);
     const [isCompletedScreen, setIsCompletedScreen] = useState (false);
-    const [flag, setFlag] = useState (false);
   
     const handleAddNewToDo = () => {
   if(newTodoTitle !==''){
